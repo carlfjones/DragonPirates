@@ -20,22 +20,6 @@
 * Xunit - Testing Framework
 * Xamarin - Front End Mobile App Markup Language
 
-## Instructions for use:
-
-* Install Unity
-* Open DragonPiratesTeam folder in Unity
-* Press the play button
-* Click on screen to simulate user touch
-
-## Technology Stack:
-
-* Unity - Game Engine
-* C# - Script Language
-* Xunit - Testing Framework
-* Xamarin - Front End Mobile App Markup Language
-
-We have
-
 ## MVP
 
 For the MVP we have a basic game. In which the dragon main character can infinitely fly through the level, avoiding pirates and flying through scorezones.
