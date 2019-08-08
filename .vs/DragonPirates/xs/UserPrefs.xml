@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{D1FBECA8-DA30-BAF7-B7BC-A779F1A7B459}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dragon.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Dragon.cs" Line="35" Column="38" />
+      <File FileName="Assets/Scripts/ScrollingObject.cs" />
+      <File FileName="Assets/Scripts/RepeatingBackground.cs" />
+      <File FileName="Assets/Scripts/PiratePool.cs" Line="42" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DragonPirates" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Dragon.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5d764170-fdb2-421f-a712-9d81fe0a6dcf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
