@@ -18,7 +18,6 @@
 * Unity - Game Engine
 * C# - Script Language
 * Xunit - Testing Framework
-* Xamarin - Front End Mobile App Markup Language
 
 ## MVP
 
