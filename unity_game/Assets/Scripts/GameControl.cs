@@ -34,7 +34,7 @@ public class GameControl : MonoBehaviour {
     {
         if (gameOver == true && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 
