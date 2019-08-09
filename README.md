@@ -27,7 +27,7 @@
 
 
 
-## Technology Stack:
+### Technology Stack:
 
 * Unity - Game Engine
 * C# - Script Language
