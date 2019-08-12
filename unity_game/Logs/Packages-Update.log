@@ -42,7 +42,11 @@ The following packages were added:
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
 
+<<<<<<< HEAD
 === Thu Aug  8 13:54:04 2019
+=======
+=== Fri Aug  9 10:33:10 2019
+>>>>>>> option_scene
 
 Packages were changed.
 Update Mode: updateDependencies
