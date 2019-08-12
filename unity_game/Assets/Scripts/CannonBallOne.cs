@@ -5,8 +5,11 @@ using UnityEngine;
 public class CannonBallOne : MonoBehaviour
 {
     // Start is called before the first frame update
+    public ParticleSystem explosion;
     [SerializeField]
     GameObject arrow;
+
+
 
     float fireRate;
     float nextFire;
@@ -23,8 +26,10 @@ public class CannonBallOne : MonoBehaviour
 
     void CheckIfTimeToFire(){
       if (Time.time > nextFire) {
-        Instantiate (arrow, transform.position, Quaternion.identity);
+        Instantiate(arrow, transform.position, Quaternion.identity);
         nextFire = Time.time + fireRate;
       }
     }
+
+
 }
