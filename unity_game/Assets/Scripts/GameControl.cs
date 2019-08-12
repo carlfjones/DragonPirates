@@ -12,7 +12,9 @@ public class GameControl : MonoBehaviour {
     public Text scoreText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
-    
+
+    //public GameObject archer2;
+
 
     private int score = 0;
 
@@ -34,7 +36,7 @@ public class GameControl : MonoBehaviour {
     {
         if (gameOver == true && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 
