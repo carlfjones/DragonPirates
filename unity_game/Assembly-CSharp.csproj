@@ -50,11 +50,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-<<<<<<< HEAD
     <UnityBuildTarget>Android:13</UnityBuildTarget>
-=======
-    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
->>>>>>> option_scene
     <UnityVersion>2019.2.0f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -66,26 +62,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\CannonBallMovement.cs" />
     <Compile Include="Assets\Scripts\CannonBallOne.cs" />
-=======
     <Compile Include="Assets\Scripts\CountdownTimer.cs" />
->>>>>>> option_scene
     <Compile Include="Assets\Scripts\Dragon.cs" />
     <Compile Include="Assets\Scripts\FireArrow2.cs" />
     <Compile Include="Assets\Scripts\FireArrow3.cs" />
     <Compile Include="Assets\Scripts\FloatBehaviour.cs" />
     <Compile Include="Assets\Scripts\GameControl.cs" />
+    <Compile Include="Assets\Scripts\Leaderboard.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PiratePool.cs" />
     <Compile Include="Assets\Scripts\Pirates.cs" />
     <Compile Include="Assets\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\Scripts\ScrollingObject.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\SpritesArchers\Scripts\Change_Sprite.cs" />
-=======
->>>>>>> option_scene
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -141,109 +132,61 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-<<<<<<< HEAD
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-=======
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
->>>>>>> option_scene
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-<<<<<<< HEAD
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-=======
-    <Reference Include="Unity.Timeline">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
->>>>>>> option_scene
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -268,15 +211,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-<<<<<<< HEAD
-=======
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
->>>>>>> option_scene
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -426,23 +360,19 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-<<<<<<< HEAD
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/acfj/Projects/DragonPirates/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-=======
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
->>>>>>> option_scene
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
