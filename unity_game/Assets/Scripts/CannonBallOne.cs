@@ -13,7 +13,7 @@ public class CannonBallOne : MonoBehaviour
 
     void Start () {
       fireRate = 7f;
-      nextFire = Time.time;
+      nextFire = Time.time + 5;
     }
 
     // Update is called once per frame
