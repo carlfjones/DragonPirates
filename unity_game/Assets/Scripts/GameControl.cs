@@ -36,22 +36,18 @@ public class GameControl : MonoBehaviour {
     {
         if (gameOver == true && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 
     public void DragonScored()
     {
         if (gameOver)
-        {
+        { 
              return;
         }
         score++;
         scoreText.text = "Score: " + score.ToString ();
-
-        /*if (score >= 1){
-          GameObject myArcherInstance = Instantiate(Prefab.Load("FantasyArcher_02")) as GameObject;
-        }*/
     }
 
     public void DragonDied()
