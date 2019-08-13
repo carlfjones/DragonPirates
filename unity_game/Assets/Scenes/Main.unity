@@ -441,8 +441,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 477618453
-  m_SortingLayer: 3
+  m_SortingLayerID: -931636551
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4b5b1ce715580420f8ac369eea776c00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1712,6 +1712,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 271257724}
   arrow: {fileID: 2108082763}
+--- !u!114 &1725508586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725508580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c6c12f7669b4ef6b09f626795071ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 271257724}
+  arrow: {fileID: 2108082763}
 --- !u!1 &1771482568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +1830,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771482568}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2186,9 +2200,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piratePoolSize: 5
   piratePrefab: {fileID: 632203059}
-  spawnRate: 14
+  spawnRate: 12
   pirateMin: 4
-  pirateMax: 4
+  pirateMax: 5
 --- !u!1 &1885957330
 GameObject:
   m_ObjectHideFlags: 0
