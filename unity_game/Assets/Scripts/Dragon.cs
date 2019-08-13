@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dragon : MonoBehaviour
 {
-    public float upForce = 250f;
+    public float upForce = 200f;
     private bool isDead = false;
     private Rigidbody2D rb2d;
     private Animator anim;
