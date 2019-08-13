@@ -51,7 +51,18 @@
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
+<<<<<<< HEAD
+=======
+    <UnityVersion>2018.3.14f1</UnityVersion>
+=======
+<<<<<<< HEAD
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+=======
+    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
+>>>>>>> option_scene
+>>>>>>> 30c4310960961fc84cc706f4714ceb829354cf18
     <UnityVersion>2019.2.0f1</UnityVersion>
+>>>>>>> 98952d0cf33cf786924b9e417e6b0f70b1755069
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -141,7 +152,26 @@
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
+<<<<<<< HEAD
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+=======
+<<<<<<< HEAD
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+=======
+      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+>>>>>>> 30c4310960961fc84cc706f4714ceb829354cf18
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -186,7 +216,21 @@
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+<<<<<<< HEAD
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+=======
+      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>/Users/acfj/Projects/DragonPirates/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+>>>>>>> 98952d0cf33cf786924b9e417e6b0f70b1755069
+>>>>>>> 30c4310960961fc84cc706f4714ceb829354cf18
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -211,7 +255,22 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
     </Reference>
+<<<<<<< HEAD
+=======
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+>>>>>>> option_scene
+>>>>>>> 30c4310960961fc84cc706f4714ceb829354cf18
+    </Reference>
+>>>>>>> 98952d0cf33cf786924b9e417e6b0f70b1755069
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
@@ -365,14 +424,31 @@
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/student/projects/Week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+=======
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/student/Desktop/Projects/weekly-challenges/week11-12/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+=======
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/remzilla/Labs/Makers/Projects/week_11/press_start/DragonPirates/unity_game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+>>>>>>> option_scene
+>>>>>>> 98952d0cf33cf786924b9e417e6b0f70b1755069
+>>>>>>> 30c4310960961fc84cc706f4714ceb829354cf18
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

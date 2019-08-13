@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 092b0e80d6c4b43d99678ba040e882fa
+  - enabled: 1
     path: Assets/Scenes/Countdown.unity
     guid: 4223a14a638ce4c97b1bed3efb885ada
   - enabled: 1
