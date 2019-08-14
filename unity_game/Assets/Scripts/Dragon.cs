@@ -37,4 +37,5 @@ public class Dragon : MonoBehaviour
         anim.SetTrigger("Die");
         GameControl.instance.DragonDied();
     }
+
 }
