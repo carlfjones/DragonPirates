@@ -1088,6 +1088,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2108082768}
     m_Modifications:
+    - target: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Name
+      value: BigExplosionEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000012777718758, guid: acf39d9f4addf294d93fa56fa373961b,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000012777718758, guid: acf39d9f4addf294d93fa56fa373961b,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010212820824, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1143,20 +1157,6 @@ PrefabInstance:
     - target: {fileID: 4000010212820824, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
       propertyPath: m_LocalScale.z
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
-      propertyPath: m_Name
-      value: BigExplosionEffect
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012777718758, guid: acf39d9f4addf294d93fa56fa373961b,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198000012777718758, guid: acf39d9f4addf294d93fa56fa373961b,
-        type: 3}
-      propertyPath: lengthInSec
-      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 199000010553669322, guid: acf39d9f4addf294d93fa56fa373961b,
         type: 3}
@@ -1830,7 +1830,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771482568}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
