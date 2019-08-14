@@ -11,9 +11,9 @@ public class PiratePool : MonoBehaviour
     public float pirateMax = 3.5f;
 
     private GameObject[] pirates;
-    private Vector2 objectPoolPosition = new Vector2(-15f, -25f);
+    private Vector2 objectPoolPosition = new Vector2(-5f, -25f);
     private float timeSinceLastSpawned;
-    private float spawnXPosition = 10f;
+    private float spawnXPosition = 20f;
     private int currentPirate = 0;
 
 
