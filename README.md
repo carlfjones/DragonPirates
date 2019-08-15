@@ -33,7 +33,7 @@ _Tap on spacebar to simulate user touch_
 
 ### Instructions for use on Android Mobile devices
 
-- Use android file transfer on laptop to drag and drop the ./DragonPiratesAndroidTest.apk
+- Use android file transfer on laptop to drag and drop the ./TestDP.apk
 
 ## DEVELOPER INSTRUCTIONS
 
