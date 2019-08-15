@@ -17,7 +17,7 @@ public class GameControl : MonoBehaviour {
     //public GameObject archer2;
 
 
-    private int score = 0;
+    public int score = 0;
 
     // Use this for initialization
     void Awake()
