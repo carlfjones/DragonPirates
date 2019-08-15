@@ -2,21 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
+
 
 public class Leaderboard : MonoBehaviour
 {
+
+    void Start(){
+        Debug.Log("Running Leaderboard...");
+        ProcessLeaderboard(MainMenu.instance.player_name, GameControl.instance.score);
+        GenerateLeaderboard();
+    }
+
+    public void ProcessLeaderboard(string name, int score){
+        Debug.Log("Processing leaderboard");
+        MainMenu.instance.list.Add(new KeyValuePair<string, int>(name, score));
+        MainMenu.instance.list = MainMenu.instance.list.OrderBy(x => x.Value).ToList();
+        MainMenu.instance.list.Reverse();
+    }
     // Start is called before the first frame update
     public void GenerateLeaderboard()
-    {
-        var list = new List<KeyValuePair<string, int>>();
-
-        list.Add(new KeyValuePair<string, int>("Remy", 100));
-        list.Add(new KeyValuePair<string, int>("Chris", 80));
-        list.Add(new KeyValuePair<string, int>("Jake", 60));
-        list.Add(new KeyValuePair<string, int>("Stig", 150));
-
+    {   
+        Debug.Log("Generating Leaderboard");
         int usernameVar = 1;
-        foreach(var record in list)
+        foreach(var record in MainMenu.instance.list)
         {
             string usernameObject = "Name" + usernameVar;
             GameObject.Find(usernameObject).GetComponent<Text>().text = usernameVar.ToString() + ".  " + record.Key;
@@ -25,18 +34,12 @@ public class Leaderboard : MonoBehaviour
         }
 
         int scoreVar = 1;
-         foreach(var record in list)
-         {
-             string scoreObject = "Score" + scoreVar;
-             GameObject.Find(scoreObject).GetComponent<Text>().text = record.Value.ToString();
-             scoreVar++;
-             Debug.Log($"Leaderboard user score object updated: {record.Value}");
-         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        foreach(var record in MainMenu.instance.list)
+        {
+            string scoreObject = "Score" + scoreVar;
+            GameObject.Find(scoreObject).GetComponent<Text>().text = record.Value.ToString();
+            scoreVar++;
+            Debug.Log($"Leaderboard user score object updated: {record.Value}");
+        }
     }
 }
