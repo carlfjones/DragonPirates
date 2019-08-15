@@ -52,12 +52,7 @@ public class GameControl : MonoBehaviour {
 
     public void DragonDied()
     {
-
-
         gameOverText.SetActive(true);
-
-        // quitButton.SetActive(true);
-
         gameOver = true;
         IEnumerator Wait(){
           yield return new WaitForSeconds (3.0f);

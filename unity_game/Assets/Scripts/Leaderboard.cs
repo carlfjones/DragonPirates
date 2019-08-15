@@ -2,16 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using System.Linq;
 
 
 public class Leaderboard : MonoBehaviour
 {
 
+    public List<KeyValuePair<string, int>> list = new List<KeyValuePair<string, int>>();
+    
+     UnityEvent m_MyEvent = new UnityEvent();
+
     void Start(){
         Debug.Log("Running Leaderboard...");
-        ProcessLeaderboard(MainMenu.instance.player_name, GameControl.instance.score);
         GenerateLeaderboard();
+    }
+
+    void Update(){
+        GenerateLeaderboard();
+    }
+
+    public void OnClick()
+    {
+        string player_name = GameObject.Find("Text").GetComponent<Text>().text;
+        ProcessLeaderboard(player_name, GameControl.instance.score);
     }
 
     public void ProcessLeaderboard(string name, int score){
