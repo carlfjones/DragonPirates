@@ -47,6 +47,7 @@ public class GameControl : MonoBehaviour {
              return;
         }
         score++;
+        PlayerPrefs.SetInt("Score: ", score);
         scoreText.text = "Score: " + score.ToString ();
     }
 
