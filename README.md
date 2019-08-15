@@ -2,36 +2,38 @@
 
 ## Team
 
-| Carl | Chris | Danny | Jake | Remy |
-| ---- | ----- | ----- | ---- | ---- |
-|<a href='https://github.com/carlfjones'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/chris-groves'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/danielandro'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/binaryred01'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|<a href='https://github.com/indecentdolphin'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a>|
+| Carl                                                                                                                                                                    | Chris                                                                                                                                                                     | Danny                                                                                                                                                                    | Jake                                                                                                                                                                     | Remy                                                                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href='https://github.com/carlfjones'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> | <a href='https://github.com/chris-groves'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> | <a href='https://github.com/danielandro'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> | <a href='https://github.com/binaryred01'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> | <a href='https://github.com/indecentdolphin'><img src='https://user-images.githubusercontent.com/23095774/60434119-56192e00-9bfe-11e9-8156-26105b51e0d7.png' width='40'></a> |
 
 ### Instructions for use:
 
-* Install Unity
-* Open DragonPiratesTeam folder in Unity
-* Press the play button
-* Click on screen to simulate user touch
+- Install Unity
+- Open DragonPiratesTeam folder in Unity
+- Press the play button
+- Click on screen to simulate user touch
 
 ### Instructions for use on Android Mobile devices
 
-* Use android file transfer on laptop to drag and drop the ./DragonPiratesAndroidTest.apk
+- Use android file transfer on laptop to drag and drop the ./DragonPiratesAndroidTest.apk
 
 ## DEVELOPER INSTRUCTIONS
 
-* Deploying Unity App
-- - Download Android SDK Tools from the internet
-- - Locate the tools in Unity via Preferences/External Tools (it should auto find)
-- - In Unity, create a key using Keystore: <br> <br> Go to File/Build Settings, select Android in Platform and click Player Settings... Here you will find the Keystore Manager. Select from the dropdown: select existing. Then browse to ./KEYSTORE.keystore. <br> Then use the password to load the key. <br> You will now be able to go to Build Settings again and Build the application. <br> Follow the "Instructions for use on Android Mobile devices" to load the app on a device.
+- Deploying Unity App
 
-
-
+* - Download Android SDK Tools from the internet
+* - Locate the tools in Unity via Preferences/External Tools (it should auto find)
+* - In Unity, create a key using Keystore: <br> <br> Go to File/Build Settings, select Android in Platform and click Player Settings... Here you will find the Keystore Manager. Select from the dropdown: select existing. Then browse to ./KEYSTORE.keystore. <br> Then use the password to load the key. <br> You will now be able to go to Build Settings again and Build the application. <br> Follow the "Instructions for use on Android Mobile devices" to load the app on a device.
 
 ### Technology Stack:
 
-* Unity - Game Engine
-* C# - Script Language
-* Xunit - Testing Framework
+| C#                       | Unity                     | Visual Studio                             |
+| ------------------------ | ------------------------- | ----------------------------------------- |
+| ![C Sharp Logo][c#-logo] | ![Unity logo][unity-logo] | ![Visual Studio Logo][visual-studio-logo] |
+
+[c#-logo]: images/csharp-logo.png 'C sharp Logo'
+[unity-logo]: images/unity-logo-black.png 'Unity Logo'
+[visual-studio-logo]: images/visualstudio-logo.png 'Visual Studio Logo'
 
 ### MVP
 
