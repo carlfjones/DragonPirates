@@ -10,7 +10,8 @@ public class Quit : MonoBehaviour
 
     void Update()
     {
-    finalScore.text = PlayerPrefs.GetInt("Score: ").ToString();
+    // finalScore.text = PlayerPrefs.GetInt("Score: ").ToString();
+    finalScore.text = GameControl.instance.score.ToString();
     }
 
 
