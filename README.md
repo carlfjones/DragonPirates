@@ -1,5 +1,9 @@
 # DragonPirates
 
+A 2D Side Scroller Involving Dragons, Pirates & Sharks
+
+![Game Home Screen][game-home-screen]
+
 ## Team
 
 | Carl                                                                                                                                                                    | Chris                                                                                                                                                                     | Danny                                                                                                                                                                    | Jake                                                                                                                                                                     | Remy                                                                                                                                                                         |
@@ -8,10 +12,24 @@
 
 ### Instructions for use:
 
-- Install Unity
-- Open DragonPiratesTeam folder in Unity
-- Press the play button
-- Click on screen to simulate user touch
+1. Go to [this](https://store.unity.com/download) link & install Unity hub. You'll need to create a free Unity account
+
+![Unity hub download screen](images/screenshots/Unity-hub-install-page.png)
+
+2. Open Unity Hub & install `Unity 19.2.0f1`
+
+![Unity hub install screen](images/screenshots/unity_hub_installs_screen)
+
+3. Git clone this repo
+
+4. Open the project, then open the `Unity_game` folder in Unity Hub.
+
+   The project will open and install the required assets.
+
+5. Once loaded, press the play button
+
+![Unity play screen](images/screenshots/unity-play-screen.png)
+_Tap on spacebar to simulate user touch_
 
 ### Instructions for use on Android Mobile devices
 
@@ -27,13 +45,15 @@
 
 ### Technology Stack:
 
-| C#                       | Unity                     | Visual Studio                             |
-| ------------------------ | ------------------------- | ----------------------------------------- |
-| ![C Sharp Logo][c#-logo] | ![Unity logo][unity-logo] | ![Visual Studio Logo][visual-studio-logo] |
+| C#                       | Unity                     | Visual Studio                             | Android                       |
+| ------------------------ | ------------------------- | ----------------------------------------- | ----------------------------- |
+| ![C Sharp Logo][c#-logo] | ![Unity logo][unity-logo] | ![Visual Studio Logo][visual-studio-logo] | ![Android Logo][android-logo] |
 
 [c#-logo]: images/csharp-logo.png 'C sharp Logo'
 [unity-logo]: images/unity-logo-black.png 'Unity Logo'
 [visual-studio-logo]: images/visualstudio-logo.png 'Visual Studio Logo'
+[android-logo]: images/screenshots/Android-Logo.png 'Android Logo'
+[game-home-screen]: images/screenshots/game-home-screen.png 'Game Home Screen'
 
 ### MVP
 
