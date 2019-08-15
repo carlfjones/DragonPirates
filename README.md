@@ -24,7 +24,15 @@
 - - Locate the tools in Unity via Preferences/External Tools (it should auto find)
 - - In Unity, create a key using Keystore: <br> <br> Go to File/Build Settings, select Android in Platform and click Player Settings... Here you will find the Keystore Manager. Select from the dropdown: select existing. Then browse to ./KEYSTORE.keystore. <br> Then use the password to load the key. <br> You will now be able to go to Build Settings again and Build the application. <br> Follow the "Instructions for use on Android Mobile devices" to load the app on a device.
 
+## Credits
+“Foggy Forest” menu loop by PlayOnLoop.com
+Licensed under Creative Commons by Attribution 4.0
 
+Menu scene by <a href="https://www.freepik.com/free-photos-vectors/water">Water vector created by brgfx - www.freepik.com</a>
+
+"Countdown to Myocardial Infarction" main game loop by Peter Gresser
+
+"Race Start Beeps" by Ulrich Metzner (remixed by qubodup)
 
 
 ### Technology Stack:
