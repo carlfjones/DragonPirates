@@ -33,7 +33,7 @@ _Tap on spacebar to simulate user touch_
 
 ### Instructions for use on Android Mobile devices
 
-- Use android file transfer on laptop to drag and drop the ./TestDP.apk
+- Use android file transfer on laptop to drag and drop the ./FinalGame.apk
 
 ## DEVELOPER INSTRUCTIONS
 
@@ -72,3 +72,14 @@ For the MVP we have a basic game. In which the dragon main character can infinit
 - [ ] User can see their position on LeaderBoard when game over
 
 ### Version 2 - backlog
+
+## Credits
+
+“Foggy Forest” menu loop by PlayOnLoop.com
+Licensed under Creative Commons by Attribution 4.0
+
+Menu scene by <a href="https://www.freepik.com/free-photos-vectors/water">Water vector created by brgfx - www.freepik.com</a>
+
+"Countdown to Myocardial Infarction" main game loop by Peter Gresser
+
+"Race Start Beeps" by Ulrich Metzner (remixed by qubodup)
