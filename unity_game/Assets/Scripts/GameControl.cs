@@ -9,6 +9,7 @@ public class GameControl : MonoBehaviour {
     //Singleton:
     public static GameControl instance;
     public GameObject gameOverText;
+    public GameObject quitButton;
     public Text scoreText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
@@ -31,19 +32,18 @@ public class GameControl : MonoBehaviour {
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (gameOver == true && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
     public void DragonScored()
     {
         if (gameOver)
-        { 
+        {
              return;
         }
         score++;
@@ -52,7 +52,16 @@ public class GameControl : MonoBehaviour {
 
     public void DragonDied()
     {
+
         gameOverText.SetActive(true);
+
+        // quitButton.SetActive(true);
+
         gameOver = true;
+        IEnumerator Wait(){
+          yield return new WaitForSeconds (3.0f);
+        SceneManager.LoadScene("EndGame");
+      }
     }
+
 }
