@@ -14,7 +14,6 @@ public class Leaderboard : MonoBehaviour
             string[] quoteList = new string[]{
                 "Be shore of yourself.",
                 "Let your worries drift away.",
-                "Let your worries drift away.",
                 "Don’t coast through life.",
                 "Drown out pier pressure.",
                 "Sea’s life’s moments.",
