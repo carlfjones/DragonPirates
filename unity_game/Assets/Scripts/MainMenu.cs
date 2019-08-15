@@ -13,9 +13,11 @@ public class MainMenu : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
+        if (_instance != null && _instance != this)
         {
-            instance = this;
+            Destroy(this.gameObject);
+        } else {
+            _instance = this;
         }
     }
 
