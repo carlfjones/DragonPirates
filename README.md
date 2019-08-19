@@ -45,8 +45,8 @@ _Tap on spacebar to simulate user touch_
 
 ### Technology Stack:
 
-| C#                       | Unity                     | Visual Studio                             | Android                       |
-| ------------------------ | ------------------------- | ----------------------------------------- | ----------------------------- |
+| C#                       | Unity                     | Visual Studio                             | Android                       
+| ------------------------ | ------------------------- | ----------------------------------------- | --------------------------
 | ![C Sharp Logo][c#-logo] | ![Unity logo][unity-logo] | ![Visual Studio Logo][visual-studio-logo] | ![Android Logo][android-logo] |
 
 [c#-logo]: images/csharp-logo.png 'C sharp Logo'
